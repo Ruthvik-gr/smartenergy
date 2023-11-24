@@ -70,7 +70,7 @@ export const CommunityMarket = ({ isAuth }) => {
               navigate("/Profile");
             }}
           >
-            invest
+            Buy
           </button>
         </Card>
       ))}
