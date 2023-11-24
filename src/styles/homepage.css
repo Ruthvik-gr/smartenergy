@@ -1,0 +1,44 @@
+.bg {
+  background-image: url("../assets/logo.png");
+  height: 100vh;
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.app{
+  background-image: url("../assets/bg.jpg");
+  height: 100%;
+  width: 100%;
+}
+.container {
+}
+/* Style for cards */
+.Card1 {
+  margin-top: 5%;
+  width: 75%;
+}
+.Card2 {
+  width: 75%;
+  float: right;
+}
+.Card3 {
+  padding-bottom: 5%;
+  width: 75%;
+}
+.text-reset {
+  color: rgb(255, 255, 255);
+}
+
+.but {
+  display: grid;
+  grid-template-columns: 1fr auto; /* 'auto' column will push button to the right */
+}
+
+/* Target the button */
+button {
+  grid-column: 2; /* Place the button in the second column */
+}
